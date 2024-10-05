@@ -1,0 +1,41 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalSettingsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  position: absolute;
+  top: 200px;
+}
+
+.iconClose {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 450px;
+  right: 0;
+  cursor: pointer;
+}
+
+.settingsInput {
+  border: none;
+  background-color: rgb(227, 227, 227);
+  padding: 3px;
+  border-radius: 5px;
+  outline: none;
+}

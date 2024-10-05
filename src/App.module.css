@@ -1,0 +1,15 @@
+.appFocus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(254, 92, 92);
+  height: 100vh;
+}
+
+.appChill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(92, 165, 254);
+  height: 100vh;
+}
